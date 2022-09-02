@@ -1,0 +1,31 @@
+AUTO                                TIPO DATO           ATTRIBUTI
+id                                  =>BIGINT            =>UNIQUE NOT NULL AUTO INCREMENT PRIMARY KEY
+marca                               =>VARCHAR(50)       =>NOT NULL
+modello                             =>VARCHAR(10)       =>NOT NULL
+tipologia(carrozzeria)              =>VARCHAR(20)       =>NOT NULL
+cilindrata                          =>BIGINT            =>NOT NULL
+anno                                =>YEAR              =>NOT NULL
+alimentazione                       =>VARCHAR(20)       =>NOT NULL
+direttiva inquinamento              =>VARCHAR(20)       =>NULL
+colore                              =>VARCHAR(20)       =>NOT NULL
+trazione                            =>VARCHAR(20)       =>NOT NULL
+numero totale disponibili           =>SMALLINT          =>NOT NULL
+numero telaio                       =>SMALLINT          =>NULL
+incidenti                           =>BOOLEAN           =>NULL
+km percorsi                         =>SMALLINT          =>NOT NULL
+pronta consegna                     =>BOOLEAN           =>NOT NULL
+ubicazione(sede principale o branch)=>VARCHAR(50)       =>NOT NULL
+allestimento                        =>VARCHAR(20)       =>NULL
+revisione                           =>DATE              =>DEFAULT:SI
+condizioni generali                 =>VARCHAR(20)       =>DEFAULT:BUONE
+antifurto                           =>BOOLEAN           =>DEFAULT:SI
+doppia chiave                       =>BOOLEAN           =>DEFAULT:SI
+chiusura centralizzata              =>BOOLEAN           =>DEFAULT:SI
+tagliandata                         =>DATE              =>DEFAULT:SI
+targata                             =>BOOLEAN           =>DEFAULT:SI
+prezzo                              =>SMALLINT          =>NOT NULL
+
+
+
+
+
