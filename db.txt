@@ -11,7 +11,6 @@ colore                              =>VARCHAR(20)       =>NOT NULL
 trazione                            =>VARCHAR(20)       =>NOT NULL
 numero totale disponibili           =>SMALLINT          =>NOT NULL
 numero telaio                       =>SMALLINT          =>NULL
-incidenti                           =>BOOLEAN           =>NULL
 km percorsi                         =>SMALLINT          =>NOT NULL
 pronta consegna                     =>BOOLEAN           =>NOT NULL
 ubicazione(sede principale o branch)=>VARCHAR(50)       =>NOT NULL
