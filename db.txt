@@ -16,7 +16,7 @@ km percorsi                         =>SMALLINT          =>NOT NULL
 pronta consegna                     =>BOOLEAN           =>NOT NULL
 ubicazione(sede principale o branch)=>VARCHAR(50)       =>NOT NULL
 allestimento                        =>VARCHAR(20)       =>NULL
-revisione                           =>DATE              =>DEFAULT:SI
+revisione                           =>DATE              =>NOT NULL
 condizioni generali                 =>VARCHAR(20)       =>DEFAULT:BUONE
 antifurto                           =>BOOLEAN           =>DEFAULT:SI
 doppia chiave                       =>BOOLEAN           =>DEFAULT:SI
